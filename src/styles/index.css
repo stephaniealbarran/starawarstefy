@@ -1,3 +1,106 @@
 /* 
     General Styles
 */
+.footer {
+    width: 100%;
+    margin: auto 0;
+    letter-spacing: 0.2px;
+    background-color: #0a0a0a;
+    background-image: url("https://www.pcworld.es/cmsdata/features/3799767/star_wars_thumb1200_16-9.jpg");
+    background-size: cover;
+}
+
+p {
+
+    color: rgb(229, 229, 238);
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 30px;
+    border-spacing: 100px;
+    display: inline-flex;
+
+
+}
+
+.facebook {
+    color: rgb(236, 236, 245);
+    margin-right: 10px;
+}
+
+.instagram {
+    color: rgb(236, 236, 245);
+    margin-right: 10px;
+}
+
+.twitter {
+    color: rgb(236, 236, 245);
+    margin-right: 10px;
+}
+
+.youtube {
+    color: rgb(236, 236, 245);
+    ;
+}
+
+
+.container-1 {
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 20px;
+    border-spacing: 100px;
+    display: inline-flex;
+
+}
+
+.logoNavBar {
+    width: 15rem;
+    height: 8rem;
+    text-align: center;
+}
+
+.navBar1 {
+    background-image: url("https://www.pcworld.es/cmsdata/features/3799767/star_wars_thumb1200_16-9.jpg");
+    background-size: cover;
+
+}
+
+.navBar2 {
+    background: linear-gradient(to right, #000000, #313131);
+
+
+}
+
+.linkToView {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sección componente HOME */
+.carouselContainer {
+    width: 100%;
+    background-image: url("https://fondosmil.com/fondo/5450.jpg");
+
+}
+
+.carouselContent {
+    width: 900px;
+}
+
+.swal-overlay {
+    background-color: rgba(223, 186, 22, 0.377);
+}
+
+.fondoCuerpo {
+    background: linear-gradient(to right, #000000, #313131);
+    margin: 0;
+    min-height:60vh;
+}
+.spinner{
+    /* margin-top: 500px; */
+    min-height:max-content;
+}
